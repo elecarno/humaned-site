@@ -1,0 +1,23 @@
+{
+  "name": "humaned-site",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://elecarno.github.io/humaned",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && copy docs\\index.html docs\\404.html",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.9",
+    "@sveltejs/vite-plugin-svelte": "^6.1.0",
+    "gh-pages": "^6.3.0",
+    "svelte": "^5.37.3",
+    "vite": "^7.1.0"
+  },
+  "dependencies": {
+    "@mateothegreat/svelte5-router": "^2.16.8",
+    "@rodneylab/svelte-social-icons": "^0.0.31"
+  }
+}
