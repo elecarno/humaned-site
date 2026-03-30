@@ -2,10 +2,12 @@
   import { Router, type RouteConfig } from '@mateothegreat/svelte5-router';
   import Home from "./routes/home.svelte";
   import pg404 from "./routes/404.svelte"
+  import pgTeams from "./routes/teams.svelte"
 
   const routes: RouteConfig[] = [
     { component: Home },
     { path: "/*", component: pg404},
+    { path: "/teams", component: pgTeams},
   ]
 
   function redirect(link) {
@@ -21,7 +23,7 @@
   <div class="con-navbar-buttons">
     <button class="btn-nav" on:click={() => {redirect("/")}}>JOIN</button>
     <button class="btn-nav" on:click={() => {redirect("/")}}>COMMITTEE</button>
-    <button class="btn-nav" on:click={() => {redirect("/")}}>TEAMS</button>
+    <button class="btn-nav" on:click={() => {redirect("/teams")}}>TEAMS</button>
     <button class="btn-nav" on:click={() => {redirect("/")}}>MERCH</button>
     <!-- <button class="btn-nav" on:click={() => {redirect("/")}}>ABOUT</button> -->
   </div>
