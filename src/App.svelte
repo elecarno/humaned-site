@@ -2,12 +2,10 @@
   import { Router, type RouteConfig } from '@mateothegreat/svelte5-router';
   import Home from "./routes/home.svelte";
   import pg404 from "./routes/404.svelte"
-  import pgLinks from './routes/links.svelte';
 
   const routes: RouteConfig[] = [
     { component: Home },
     { path: "/*", component: pg404},
-    { path: "/links", component: pgLinks}
   ]
 
   function redirect(link) {
@@ -19,10 +17,13 @@
   <div class="con-navbar-title">
     <button class="btn-nav" on:click={() => {redirect("/")}}>HumanEd</button>
   </div>
-  <img src="src/assets/humaned-logo.svg" alt="logo" class="img-logo" style="filter: brightness(90%);">
+  <img src="src/assets/humaned-logo.svg" alt="logo" class="img-logo" style="filter: brightness(95%);">
   <div class="con-navbar-buttons">
+    <button class="btn-nav" on:click={() => {redirect("/")}}>JOIN</button>
+    <button class="btn-nav" on:click={() => {redirect("/")}}>COMMITTEE</button>
     <button class="btn-nav" on:click={() => {redirect("/")}}>TEAMS</button>
-    <button class="btn-nav" on:click={() => {redirect("/")}}>TEAMS</button>
+    <button class="btn-nav" on:click={() => {redirect("/")}}>MERCH</button>
+    <!-- <button class="btn-nav" on:click={() => {redirect("/")}}>ABOUT</button> -->
   </div>
 </div>
 
@@ -101,6 +102,15 @@
   .con-navbar-buttons button{
     margin: 0;
     padding: 0;
+  }
+
+  .con-navbar-buttons button:hover{
+    margin: 0;
+    padding: 0;
+
+    color: #cbcbcb;
+
+    transition: 0.3s;
   }
 
   .img-logo {

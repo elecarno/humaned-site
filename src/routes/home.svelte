@@ -6,7 +6,7 @@
 
 <main>
   <div class="con-titlepage">
-    <img src="src/assets/humaned-logo.svg" alt="logo" class="img-logo" style="filter: brightness(90%);">
+    <img src="src/assets/humaned-logo.svg" alt="logo" class="img-logo" style="filter: brightness(95%);">
     <h1 class="lbl-title">Welcome to HumanEd</h1>
     <h2 class="lbl-subtitle fnt-jersey">Humanoid Robotics at the University of Edinburgh</h2>
   </div>
