@@ -71,6 +71,9 @@
     --chasm20: #ff5dcc;
     --chasm21: #fdfe89;
     --chasm22: #ffffff;
+
+    --team-arm:   #5fc9e7;
+    --team-biped: #8dd894;
   }
 
   .pan-navbar{
