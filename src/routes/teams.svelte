@@ -4,6 +4,10 @@
   }
 </script>
 
+<svelte:head>
+    <title>HumanEd | Teams</title> 
+</svelte:head>
+
 <main>
   <div class="con-teams-header">
     <h2 style="color: var(--team-arm)">Robotic Arms</h2>
@@ -133,7 +137,6 @@
     /* background-color: var(--chasm7); */
     text-align: left;
 
-    background-image: url("../assets/banners/banner-exo.png");
     background-position: center;
     
     transition: 0.5s;
@@ -161,6 +164,31 @@
     filter: drop-shadow( 3px 3px 2px rgba(45, 45, 45, 0.3));
 
     width: 150px;
+  }
+
+  .team-arm {
+    background-image: url("../assets/banners/banner-arm.png");
+  }
+  .team-bip {
+    background-image: url("../assets/banners/banner-bip.png");
+  }
+  .team-exo {
+    background-image: url("../assets/banners/banner-exo.png");
+  }
+  .team-bio {
+    background-image: url("../assets/banners/banner-exo.png");
+  }
+  .team-dev {
+    background-image: url("../assets/banners/banner-exo.png");
+  }
+  .team-rei {
+    background-image: url("../assets/banners/banner-exo.png");
+  }
+  .team-vis {
+    background-image: url("../assets/banners/banner-exo.png");
+  }
+  .team-sof {
+    background-image: url("../assets/banners/banner-exo.png");
   }
 
   .team-arm:hover {

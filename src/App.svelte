@@ -3,11 +3,13 @@
   import Home from "./routes/home.svelte";
   import pg404 from "./routes/404.svelte"
   import pgTeams from "./routes/teams.svelte"
+  import pgCommittee from "./routes/committee.svelte"
 
   const routes: RouteConfig[] = [
     { component: Home },
-    { path: "/*", component: pg404},
-    { path: "/teams", component: pgTeams},
+    { path: "/*", component: pg404  },
+    { path: "/teams", component: pgTeams },
+    { path: "/committee", component: pgCommittee }
   ]
 
   function redirect(link) {
@@ -22,7 +24,7 @@
   <img src="src/assets/humaned-logo.svg" alt="logo" class="img-logo" style="filter: brightness(95%);">
   <div class="con-navbar-buttons">
     <button class="btn-nav" on:click={() => {redirect("/")}}>JOIN</button>
-    <button class="btn-nav" on:click={() => {redirect("/")}}>COMMITTEE</button>
+    <button class="btn-nav" on:click={() => {redirect("/committee")}}>COMMITTEE</button>
     <button class="btn-nav" on:click={() => {redirect("/teams")}}>TEAMS</button>
     <button class="btn-nav" on:click={() => {redirect("/")}}>MERCH</button>
     <!-- <button class="btn-nav" on:click={() => {redirect("/")}}>ABOUT</button> -->
