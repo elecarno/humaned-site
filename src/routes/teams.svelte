@@ -8,65 +8,89 @@
   <div class="con-teams-header">
     <h2 style="color: var(--team-arm)">Robotic Arms</h2>
     <span>•</span>
-    <h2>Bipedal Motion</h2>
+    <h2 style="color: var(--team-bip)">Bipedal Motion</h2>
     <span>•</span>
-    <h2>Exoskeleton</h2>
+    <h2 style="color: var(--team-exo)">Exoskeleton</h2>
     <span>•</span>
-    <h2>Biomimetics</h2>
+    <h2 style="color: var(--team-bio)">Biomimetics</h2>
     <span>•</span>
-    <h2>Developed Projects</h2>
+    <h2 style="color: var(--team-dev)">Developed Projects</h2>
   </div>
   <div class="con-teams-header">
-    <h2>Reinforcement Learning</h2>
+    <h2 style="color: var(--team-rei)">Reinforcement Learning</h2>
     <span>•</span>
-    <h2>Computer Vision</h2>
+    <h2 style="color: var(--team-vis)">Computer Vision</h2>
     <span>•</span>
-    <h2>Software</h2>
+    <h2 style="color: var(--team-sof)">Software</h2>
   </div>
 
   <hr>
 
   <h1>Humanoid Robot</h1>
   <div class="con-teams-list">
-    <div class="con-team">
-      <img src="src/assets/logos/logo-software.svg" alt="logo" class="img-team-logo">
-      <h2>Robotic Arms</h2>
+    <div class="con-team team-arm">
+      <img src="src/assets/logos/logo-sof.svg" alt="logo" class="img-team-logo">
+      <div class="con-team-title">
+        <h2>Robotic Arms</h2>
+        <h3>Advanced</h3>
+      </div>
     </div>
-    <div class="con-team">
-      <img src="src/assets/logos/logo-software.svg" alt="logo" class="img-team-logo">
-      <h2>Bipedal Motion</h2>
+    <div class="con-team team-bip">
+      <img src="src/assets/logos/logo-sof.svg" alt="logo" class="img-team-logo">
+      <div class="con-team-title">
+        <h2>Bipedal Motion</h2>
+        <h3>Advanced</h3>
+      </div>
     </div>
   </div>
 
   <h1>Hardware</h1>
   <div class="con-teams-list">
-    <div class="con-team">
+    <div class="con-team team-exo">
       <img src="src/assets/logos/logo-exo.svg" alt="logo" class="img-team-logo">
-      <h2>Exoskeleton</h2>
+      <div class="con-team-title">
+        <h2>Exoskeleton</h2>
+        <h3>Intermediate</h3>
+      </div>
     </div>
-    <div class="con-team">
+    <div class="con-team team-bio">
       <img src="src/assets/logos/logo-bio.svg" alt="logo" class="img-team-logo">
-      <h2>Biomimetics</h2>
+      <div class="con-team-title">
+        <h2>Biomimetics</h2>
+        <h3>Intermediate</h3>
+      </div>
     </div>
-    <div class="con-team">
+    <div class="con-team team-dev">
       <img src="src/assets/logos/logo-dev.svg" alt="logo" class="img-team-logo">
-      <h2>Developed Projects</h2>
+      <div class="con-team-title">
+        <h2>Developed Projects</h2>
+        <h3>Beginner</h3>
+      </div>
     </div>
   </div>
 
   <h1>Software</h1>
   <div class="con-teams-list" style="margin-bottom: 16px;">
-    <div class="con-team">
-      <img src="src/assets/logos/logo-software.svg" alt="logo" class="img-team-logo">
-      <h2>Reinforcement Learning</h2>
+    <div class="con-team team-rei">
+      <img src="src/assets/logos/logo-sof.svg" alt="logo" class="img-team-logo">
+      <div class="con-team-title">
+        <h2>Reinforcement Learning</h2>
+        <h3>Intermediate</h3>
+      </div>
     </div>
-    <div class="con-team">
-      <img src="src/assets/logos/logo-vision.svg" alt="logo" class="img-team-logo">
-      <h2>Computer Vision</h2>
+    <div class="con-team team-vis">
+      <img src="src/assets/logos/logo-vis.svg" alt="logo" class="img-team-logo">
+      <div class="con-team-title">
+        <h2>Computer Vision</h2>
+        <h3>Advanced</h3>
+      </div>
     </div>
-    <div class="con-team">
-      <img src="src/assets/logos/logo-software.svg" alt="logo" class="img-team-logo">
-      <h2>Software</h2>
+    <div class="con-team team-sof">
+      <img src="src/assets/logos/logo-sof.svg" alt="logo" class="img-team-logo">
+      <div class="con-team-title">
+        <h2>Software</h2>
+        <h3>Beginner</h3>
+      </div>
     </div>
   </div>
 </main>
@@ -103,10 +127,10 @@
 
     height: 200px;
 
-    padding-left: 128px;
+    padding-left: 244px;
     gap: 32px;
 
-    background-color: var(--chasm7);
+    /* background-color: var(--chasm7); */
     text-align: left;
 
     background-image: url("../assets/banners/banner-exo.png");
@@ -116,19 +140,54 @@
   }
   .con-team:hover {
     height: 220px;
-    padding-left: 256px;
-    background-color: var(--team-arm);
+    padding-left: 288px;
   }
-  .con-team h2 {
-    font-size: 38px;
+
+  .con-team-title {
+    filter: drop-shadow( 3px 3px 2px rgba(45, 45, 45, 0.3));
     width: 100%;
+  }
+  .con-team-title h2 {
+    font-size: 38px;
+    margin: 0;
+  }
+  .con-team-title h3 {
+    font-size: 30px;
+    margin: 0;
   }
 
   .img-team-logo {
     filter: brightness(95%);
+    filter: drop-shadow( 3px 3px 2px rgba(45, 45, 45, 0.3));
 
     width: 150px;
   }
+
+  .team-arm:hover {
+    background-color: var(--team-arm);
+  }
+  .team-bip:hover {
+    background-color: var(--team-bip);
+  }
+  .team-exo:hover {
+    background-color: var(--team-exo);
+  }
+  .team-bio:hover {
+    background-color: var(--team-bio);
+  }
+  .team-dev:hover {
+    background-color: var(--team-dev);
+  }
+  .team-rei:hover {
+    background-color: var(--team-rei);
+  }
+  .team-vis:hover {
+    background-color: var(--team-vis);
+  }
+  .team-sof:hover {
+    background-color: var(--team-sof);
+  }
+  
 
   
 </style>

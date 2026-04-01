@@ -72,8 +72,14 @@
     --chasm21: #fdfe89;
     --chasm22: #ffffff;
 
-    --team-arm:   #5fc9e7;
-    --team-biped: #8dd894;
+    --team-arm:   #62e6a6;
+    --team-bip:   #4ab9a3;
+    --team-exo:   #cf6565;
+    --team-bio:   #ca60ae;
+    --team-dev:   #fdfe89;
+    --team-rei:   #c284d7;
+    --team-vis:   #7254ea;
+    --team-sof:   #f3a787;
   }
 
   .pan-navbar{
