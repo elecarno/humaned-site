@@ -134,7 +134,7 @@
     padding-left: 244px;
     gap: 32px;
 
-    /* background-color: var(--chasm7); */
+    /* background-color: var(--pal-gray); */
     text-align: left;
 
     background-position: center;

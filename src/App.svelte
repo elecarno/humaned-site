@@ -18,9 +18,7 @@
 </script>
 
 <div class="pan-navbar">
-  <div class="con-navbar-title">
-    <button class="btn-nav" on:click={() => {redirect("/")}}>HumanEd</button>
-  </div>
+  <button class="btn-nav-title" on:click={() => {redirect("/")}}>HumanEd</button>
   <img src="src/assets/humaned-logo.svg" alt="logo" class="img-logo" style="filter: brightness(95%);">
   <div class="con-navbar-buttons">
     <button class="btn-nav" on:click={() => {redirect("/")}}>JOIN</button>
@@ -48,59 +46,20 @@
 </footer>
 
 <style>
-  :root {
-    --col-bg: #0b0b10;
-
-    --chasm1:  #85daeb;
-    --chasm2:  #5fc9e7;
-    --chasm3:  #5fa1e7;
-    --chasm4:  #5f6ee7;
-    --chasm5:  #4c60aa;
-    --chasm6:  #444774;
-    --chasm7:  #32313b;
-    --chasm8:  #463c5e;
-    --chasm9:  #5d4776;
-    --chasm10: #855395;
-    --chasm11: #ab58a8;
-    --chasm12: #ca60ae;
-    --chasm13: #f3a787;
-    --chasm14: #f5daa7;
-    --chasm15: #8dd894;
-    --chasm16: #5dc190;
-    --chasm17: #4ab9a3;
-    --chasm18: #4593a5;
-    --chasm19: #5efdf7;
-    --chasm20: #ff5dcc;
-    --chasm21: #fdfe89;
-    --chasm22: #ffffff;
-
-    --team-arm:   #62e6a6;
-    --team-bip:   #4ab9a3;
-    --team-exo:   #cf6565;
-    --team-bio:   #ca60ae;
-    --team-dev:   #fdfe89;
-    --team-rei:   #c284d7;
-    --team-vis:   #7254ea;
-    --team-sof:   #f3a787;
-  }
-
   .pan-navbar{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
-    background-color: var(--chasm7);
-
+    /* background-color: var(--pal-gray); */
     padding: 20px;
   }
 
-  .con-navbar-title  {
-    width: 100%;
-    text-align: right;
-  }
-  .con-navbar-title button {
+  .btn-nav-title {
+    font-family: "Do Hyeon";
     font-size: 32px;
+    background-color: transparent;
     margin: 0;
     padding: 0;
   }
@@ -109,7 +68,7 @@
     flex-direction: row;
     gap: 24px;
 
-    width: 100%;
+    /* width: 100%; */
     text-align: left;
   }
   .con-navbar-buttons button{
@@ -121,7 +80,7 @@
     margin: 0;
     padding: 0;
 
-    color: #cbcbcb;
+    filter: brightness(60%);
 
     transition: 0.3s;
   }
@@ -139,7 +98,7 @@
   }
 
   footer {
-    background-color: var(--chasm7);
+    background-color: var(--pal-gray);
 
     display: flex;
     flex-direction: row;

@@ -19,7 +19,10 @@
     justify-content: center;
     align-items: center;
 
-    height: 500px;
+    background: var(--pal-black);
+    background: linear-gradient(0deg, var(--pal-main) 3%, var(--pal-black) 100%);
+
+    height: 600px;
   }
   
   .img-logo {
