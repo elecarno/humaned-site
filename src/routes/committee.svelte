@@ -11,9 +11,174 @@
 
   let com_23_24 = []
 
-  let com_24_25 = []
+  let com_24_25 = [
+    {
+      "name": "Alvar Ehrnrooth",
+      "role": "President",
+      "prog": "BEng Electrical & Mechanical Engineering",
+      "img": "2024-2025/alvar_ehrnrooth.jpg"
+    },
+    {
+      "name": "Michael Gammoh",
+      "role": "Vice President / Secretary",
+      "prog": "MEng Electrical & Mechanical Engineering",
+      "img": "2024-2025/michael_gammoh.jpeg"
+    },
+    {
+      "name": "Emir Ersanli",
+      "role": "Treasurer",
+      "prog": "BEng Electronics & Computer Science",
+      "img": "2024-2025/emir_ersanli.jpg"
+    },
+    {
+      "name": "Nicolas Sam",
+      "role": "Dir. Sponsorship & Marketing / S1 Bipedal Motion",
+      "prog": "BEng Eletronics & Electrical Engineering",
+      "img": "2024-2025/nicolas_sam.jpg"
+    },
+    {
+      "name": "Ethan Cheam",
+      "role": "Tech. Dir. Reinforcement Learning",
+      "prog": "BSc AI & Computer Science",
+      "img": "2024-2025/ethan_cheam.jpg"
+    },
+    {
+      "name": "Pawel Hoffmann",
+      "role": "Tech. Dir. Biomimetic Hand",
+      "prog": "MEng Mechanical Engineering",
+      "img": "2024-2025/pawel_hoffmann.jpg"
+    },
+    {
+      "name": "Shehan Medagedara",
+      "role": "Tech. Dir. Exoskeleton",
+      "prog": "MEng Mechanical Engineering",
+      "img": "2024-2025/shehan_medagedara.jpg"
+    },
+    {
+      "name": "Cailean Johnson",
+      "role": "Tech. Dir. Developed Projects",
+      "prog": "MEng Mechanical Engineering",
+      "img": "2024-2025/cailean_johnson.png"
+    },
+    {
+      "name": "Milena Zhang",
+      "role": "S1 Tech. Dir. Software",
+      "prog": "BEng Electronics & Computer Science",
+      "img": "not_found.png"
+    },
+    {
+      "name": "Arjav Poudel",
+      "role": "Tech. Dir. Computer Vision",
+      "prog": "BSc Artificial Intelligence",
+      "img": "2024-2025/arjav_poudel.jpeg"
+    },
+    {
+      "name": "Joe Huang",
+      "role": "Tech. Dir. Bipedal Motion",
+      "prog": "MEng Electrical & Mechanical Engineering",
+      "img": "2024-2025/joe_huang.jpg"
+    }
+  ]
 
-  let com_25_26 = []
+  let com_25_26 = [
+    {
+      "name": "Alvar Ehrnrooth",
+      "role": "President",
+      "prog": "BEng Electrical & Mechanical Engineering",
+      "img": "2025-2026/alvar_ehrnrooth.jpg"
+    },
+    {
+      "name": "Michael Gammoh",
+      "role": "Vice President",
+      "prog": "MEng Electrical & Mechancial Engineering",
+      "img": "2025-2026/michael_gammoh.jpeg"
+    },
+    {
+      "name": "Neema Fanaie",
+      "role": "Teasurer",
+      "prog": "MEng Electrical & Mechancial Engineering",
+      "img": "2025-2026/neema_fanaie.jpeg"
+    },
+    {
+      "name": "Ed Platt",
+      "role": "Director of Marketing",
+      "prog": "MEng Electrical & Mechancial Engineering",
+      "img": "2025-2026/ed_platt.jpeg"
+    },
+    {
+      "name": "Roan Hoey",
+      "role": "Director of Sponsorship",
+      "prog": "MEng Electrical & Mechancial Engineering",
+      "img": "2025-2026/roan_hoey.jpeg"
+    },
+    {
+      "name": "Alan Gray",
+      "role": "Director of Hardware Teams",
+      "prog": "MEng Electrical & Mechancial Engineering",
+      "img": "2025-2026/alan_gray.jpeg"
+    },
+    {
+      "name": "Arjav Poudel",
+      "role": "Director of Software Teams",
+      "prog": "BSc Artificial Intelligence",
+      "img": "2025-2026/arjav_poudel.jpeg"
+    },
+    {
+      "name": "Shehan Medagedara",
+      "role": "Director of Humanoid Robot Teams",
+      "prog": "MEng Mechancial Engineering",
+      "img": "2025-2026/shehan_medagedara.jpg"
+    },
+    {
+      "name": "Finn Grennan",
+      "role": "Tech. Dir. Exoskeleton",
+      "prog": "MEng Mechancial Engineering",
+      "img": "2025-2026/finn_grennan.png"
+    },
+    {
+      "name": "Anil Artan",
+      "role": "Tech. Dir. Biomimetic Hand",
+      "prog": "MEng Electrical & Mechancial Engineering",
+      "img": "2025-2026/anil_artan.jpeg"
+    },
+    {
+      "name": "Pamisha Singh",
+      "role": "Tech. Dir. Robotic Arms",
+      "prog": "MEng Electrical & Mechancial Engineering",
+      "img": "not_found.png"
+    },
+    {
+      "name": "Laura Buxel",
+      "role": "Tech. Dir. Bipedal Motion",
+      "prog": "MEng Mechancial Engineering",
+      "img": "2025-2026/laura_buxel.jpeg"
+    },
+    {
+      "name": "Rupert Guinness",
+      "role": "Tech. Dir. Software",
+      "prog": "BEng Eletronics & Electrical Engineering",
+      "img": "2025-2026/rupert_guinness.png"
+    },
+    {
+      "name": "Carl Kaziboni",
+      "role": "Tech. Dir. Reinforcement Learning",
+      "prog": "BSc AI & Computer Science",
+      "img": "2025-2026/carl_kaziboni.jpeg"
+    },
+    {
+      "name": "Hwayeon Kang",
+      "role": "Tech. Dir. Computer Vision",
+      "prog": "BSc Mathematical Physics",
+      "img": "2025-2026/hwayeon_kang.jpg"
+    },
+    {
+      "name": "Cailean Johnson",
+      "role": "Tech. Dir. Developed Projects",
+      "prog": "MEng Mechancial Engineering",
+      "img": "2025-2026/cailean_johnson.png"
+    }
+
+  ]
 
   let com_26_27 = [
     {
@@ -119,6 +284,7 @@
     <button on:click={ () => { com_display = com_25_26 } }>25/26</button>
     <button on:click={ () => { com_display = com_24_25 } }>24/25</button>
     <button on:click={ () => { com_display = com_23_24 } }>23/24</button>
+    <button on:click={ () => { com_display = com_22_23 } }>22/23</button>
     <button on:click={ () => { com_display = com_21_22 } }>21/22</button>
   </div>
 

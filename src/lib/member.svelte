@@ -31,6 +31,8 @@
     width: 180px;
     height: 180px;
 
+    object-fit: cover;
+
     border-color: var(--pal-main);
     border-radius: 8px;
     border-style: solid;
