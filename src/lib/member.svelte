@@ -33,7 +33,7 @@
 
     object-fit: cover;
 
-    border-color: var(--pal-main);
+    border-color: var(--pal-primary);
     border-radius: 8px;
     border-style: solid;
     border-width: 2px;

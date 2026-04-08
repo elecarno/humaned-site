@@ -20,7 +20,7 @@
     align-items: center;
 
     background: var(--pal-black);
-    background: linear-gradient(0deg, var(--pal-main) 3%, var(--pal-black) 100%);
+    background: linear-gradient(0deg, var(--pal-primary) 3%, var(--pal-black) 100%);
 
     height: 600px;
   }
