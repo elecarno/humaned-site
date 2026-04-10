@@ -53,6 +53,7 @@
     justify-content: center;
 
     /* background-color: var(--pal-gray); */
+    /* background-color: transparent; */
     padding: 20px;
   }
 
@@ -98,7 +99,7 @@
   }
 
   footer {
-    background-color: var(--pal-gray);
+    background-color: var(--pal-black);
 
     display: flex;
     flex-direction: row;

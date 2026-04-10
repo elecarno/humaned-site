@@ -23,19 +23,19 @@
   --chasm22: #ffffff;
 
 
-  --pal-white:  #f1f1f1;
-  --pal-black:  #0b0b10;
-  --pal-gray:   #32313b;
-  --pal-primary:   #5dc190;
+  --pal-white:   #f1f1f1;
+  --pal-black:   #0b0b10;
+  --pal-gray:    #32313b;
+  --pal-primary: #5dc190;
 
-  --team-arm:   #62e6a6;
-  --team-bip:   #4ab9a3;
-  --team-exo:   #cf6565;
-  --team-bio:   #ca60ae;
-  --team-dev:   #fdfe89;
-  --team-rei:   #c284d7;
-  --team-vis:   #7254ea;
-  --team-sof:   #f3a787;
+  --team-arm:    #62e6a6;
+  --team-bip:    #4ab9a3;
+  --team-exo:    #cf6565;
+  --team-bio:    #ca60ae;
+  --team-dev:    #fdfe89;
+  --team-rei:    #c284d7;
+  --team-vis:    #7254ea;
+  --team-sof:    #f3a787;
 
   font-family: "Atkinson Hyperlegible", sans-serif;
   line-height: 1.5;
