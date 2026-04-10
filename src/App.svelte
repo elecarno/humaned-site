@@ -21,10 +21,10 @@
   <button class="btn-nav-title" on:click={() => {redirect("/")}}>HumanEd</button>
   <img src="src/assets/humaned-logo.svg" alt="logo" class="img-logo" style="filter: brightness(95%);">
   <div class="con-navbar-buttons">
-    <button class="btn-nav" on:click={() => {redirect("/")}}>JOIN</button>
+    <button class="btn-nav" on:click={() => {redirect("https://www.eusa.ed.ac.uk/shop?activity_id=441")}}>JOIN</button>
     <button class="btn-nav" on:click={() => {redirect("/committee")}}>COMMITTEE</button>
     <button class="btn-nav" on:click={() => {redirect("/teams")}}>TEAMS</button>
-    <button class="btn-nav" on:click={() => {redirect("/")}}>MERCH</button>
+    <button class="btn-nav" on:click={() => {redirect("https://www.eusa.ed.ac.uk/shop?activity_id=441")}}>MERCH</button>
     <!-- <button class="btn-nav" on:click={() => {redirect("/")}}>ABOUT</button> -->
   </div>
 </div>
@@ -33,15 +33,34 @@
 
 <footer>
   <div class="con-footer-wordmark">
-    HumanEd
+  <button on:click={() => {redirect("/")}} class="btn-footer">
+    <img src="src/assets/humaned-logo.svg" alt="logo" class="img-logo" style="filter: brightness(95%);">
+  </button>
   </div>
   <div class="con-footer-contacts">
-    <a href="https://www.facebook.com/profile.php?id=100072585729422">Facebook</a>
-    <a href="uoe.humaned@gmail.com">Gmail</a>
-    <a href="https://www.eusa.ed.ac.uk/activities/view/humaned">EUSA</a>
-    <a href="https://www.linkedin.com/company/77203031/">Linkedin</a>
-    <a href="https://www.instagram.com/humanedinburgh/">Instagram</a>
-    <a href="https://discord.com/invite/buEtyUV6Gn">Discord</a>
+    <button on:click={() => {redirect("https://www.facebook.com/profile.php?id=100072585729422")}} class="btn-footer">
+      <img src="src/assets/icons/facebook.png" alt="logo" class="img-btn-footer">
+    </button>
+    
+    <button on:click={() => {redirect("mailto:uoe.humaned@gmail.com")}} class="btn-footer">
+      <img src="src/assets/icons/gmail.png" alt="logo" class="img-btn-footer">
+    </button>
+
+    <button on:click={() => {redirect("https://www.linkedin.com/company/77203031/")}} class="btn-footer">
+      <img src="src/assets/icons/linkedin.png" alt="logo" class="img-btn-footer">
+    </button>
+
+    <button on:click={() => {redirect("https://www.instagram.com/humanedinburgh/")}} class="btn-footer">
+      <img src="src/assets/icons/instagram.png" alt="logo" class="img-btn-footer">
+    </button>
+
+    <button on:click={() => {redirect("https://discord.com/invite/buEtyUV6Gn")}} class="btn-footer">
+      <img src="src/assets/icons/discord.png" alt="logo" class="img-btn-footer">
+    </button>
+
+    <button on:click={() => {redirect("https://www.eusa.ed.ac.uk/activities/view/humaned")}} class="btn-footer">
+      <img src="src/assets/icons/eusa.png" alt="logo" class="img-btn-footer">
+    </button>
   </div>
 </footer>
 
@@ -127,5 +146,13 @@
     justify-content: right;
 
     width: 70%;
+  }
+  
+  .btn-footer {
+    background-color: transparent;
+  }
+
+  .img-btn-footer {
+    height: 38px;
   }
 </style>

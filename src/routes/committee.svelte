@@ -5,11 +5,140 @@
     window.location.href = link
   }
 
-  let com_21_22 = []
+  let com_21_22 = [
+    {
+      "name": "Sergio Miguez",
+      "role": "President",
+      "prog": "MEng Electronics & Computer Science",
+      "img": "2021-2022/sergio_miguez.png"
+    },
+    {
+      "name": "Anais Jeger",
+      "role": "Secretary",
+      "prog": "BEng Electronics & Computer Science",
+      "img": "2021-2022/anais_jeger.png"
+    },
+    {
+      "name": "Divyansh Gupta",
+      "role": "Treasurer",
+      "prog": "Chemical Engineering",
+      "img": "2021-2022/divyansh_gupta.png"
+    },
+    {
+      "name": "Juan Del Aguila",
+      "role": "Technical Director A",
+      "prog": "Computer Science & Mathematics",
+      "img": "2021-2022/juan_del_aguila.png"
+    },
+    {
+      "name": "Pablo Morandé",
+      "role": "Technical Director B",
+      "prog": "Theoretical Physics",
+      "img": "2021-2022/pablo_morande.png"
+    },
+    {
+      "name": "Yordan Tsvetkov",
+      "role": "Technical Director C",
+      "prog": "Mechanical & Engineering",
+      "img": "2021-2022/yordan_tsvetkov.png"
+    },
+    {
+      "name": "Henry Wang",
+      "role": "Head of Marketing",
+      "prog": "MSc Science & Religion",
+      "img": "2021-2022/henry_wang_cropped.png"
+    },
+  ]
 
-  let com_22_23 = []
+  let com_22_23 = [
+    {
+      "name": "Sergio Miguez",
+      "role": "President",
+      "prog": "MEng Electronics & Computer Science",
+      "img": "2022-2023/sergio_miguez.png"
+    },
+    {
+      "name": "Anais Jeger",
+      "role": "Secretary",
+      "prog": "BEng Electronics & Computer Science",
+      "img": "2022-2023/anais_jeger.png"
+    },
+    {
+      "name": "Leticia Robledo Diaz",
+      "role": "Treasurer",
+      "prog": "AI & Computer Science",
+      "img": "2022-2023/leticia_robledo_diaz.jpg"
+    },
+    {
+      "name": "Mia MacMillan",
+      "role": "Head of Sponsorship",
+      "prog": "AI & Computer Science",
+      "img": "2022-2023/mia_macmillan.jpg"
+    },
+    {
+      "name": "Josie Harrison",
+      "role": "Head of Marketing",
+      "prog": "Graphic Design",
+      "img": "2022-2023/josie_harrison.jpg"
+    },
+    {
+      "name": "Tarik Akcay",
+      "role": "Technical Director",
+      "prog": "AI & Computer Science",
+      "img": "2022-2023/tarik_akcay.jpg"
+    },
+    {
+      "name": "Oscar Jiang",
+      "role": "Technical Diretor",
+      "prog": "Mechanical Engineering",
+      "img": "2022-2023/oscar_jiang.jpg"
+    },
+    {
+      "name": "Adrian Nkadi",
+      "role": "Technical Director",
+      "prog": "AI & Computer Science",
+      "img": "2022-2023/adrian_nkadi.jpg"
+    }
+  ]
 
-  let com_23_24 = []
+  let com_23_24 = [
+    {
+      "name": "Philip Wakley-Skinnarland",
+      "role": "President / Technical Director",
+      "prog": "Mechanical Engineering",
+      "img": "2023-2024/philip_wakley-skinnarland.jpeg"
+    },
+    {
+      "name": "Neel Chaudhari",
+      "role": "Secretary",
+      "prog": "Computer Science",
+      "img": "2023-2024/neel_chaudhari.jpeg"
+    },
+    {
+      "name": "Michael Gammoh",
+      "role": "Treasurer",
+      "prog": "Electrical & Mechanical Engineering",
+      "img": "2023-2024/michael_gammoh.jpeg"
+    },
+    {
+      "name": "Amishi Gangwar",
+      "role": "Head of Marketing & Sponsorship",
+      "prog": "AI & Computer Science",
+      "img": "2023-2024/amishi_gangwar.jpg"
+    },
+    {
+      "name": "Aryan Sharma",
+      "role": "Technical Director",
+      "prog": "AI & Computer Science",
+      "img": "2023-2024/aryan_sharma.jpg"
+    },
+    {
+      "name": "Julia Morini",
+      "role": "Technical Director",
+      "prog": "Chemical Physics",
+      "img": "2023-2024/julia_morini.jpeg"
+    }
+  ]
 
   let com_24_25 = [
     {

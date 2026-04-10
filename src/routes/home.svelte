@@ -1,5 +1,7 @@
 <script>
     import { onMount, onDestroy } from 'svelte';
+    import A4 from './404.svelte';
+    import App from '../App.svelte';
 
     onMount(() => {
         document.documentElement.classList.add('pg-home');
@@ -25,12 +27,54 @@
     <img src="src/assets/photos/committee_26-27.jpg" alt="committee_26-27.jpg" class="img-photo">
     
     <div class="con-about-text">
-      <h2 class="lbl-about-header">Who are we?</h2>
-      <p class="lbl-about-body">
+      <h2>Who are we?</h2>
+      <p>
         We are a welcoming engineering society that aims to be both beginner friendly and developmental.
       
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
+  </div>
+
+
+  <div class="con-faq">
+    <h2 class="lbl-faq-title">FAQ</h2>
+
+    <h3>How do I join HumanEd?</h3>
+    <p>
+      If you would like to join HumanEd, you should start by simply showing up to one of our meetings.
+      <br><br>
+      From there, we will show you around all the teams and what we do.
+      <br><br>
+      If you then decide you want to stay with HumanEd, you can purchase a membership for £2 from our EUSA store, which you can find from the button on the header (top right) that says "Membership".
+    </p>
+
+    <hr>
+
+    <h3>When and where are the weekly meetings?</h3>
+    <p>
+      We have two meeting rooms both in the lower ground of 40 George Square on the main campus; LG.07 and LG.09. 
+      <br><br>
+      We have meetings every week on Wednesday from 18:00 to 20:00. 
+      <br><br>
+      For the first meeting you attend, you should go to LG.07.
+    </p>
+
+    <hr>
+
+    <h3>What are the different kinds of teams?</h3>
+    <p>
+      We have recently incorporated new team structures so that we can better accommodate varying member skill levels and efficiently increase our output for ambitious projects. These teams are split into Beginner, Intermediate, and Advanced tiers.
+      <br><br>
+      • A <strong>Beginner Team</strong> is fully open to all, focusing on teaching fundamental hardware and software skills through projects like the Developed Projects Team and Software Team.
+      <br><br>
+      • An <strong>Intermediate Team</strong> is open to all members with some prior experience in areas like CAD or electronics recommended.
+      <br><br>
+      • An <strong>Advanced Team</strong> requires strong proficiency and active commitment for complex projects. 
+      Entry to these teams is selection-based through an application process, you can sign up via the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYcqCT0bs7MREouu3SPUuamBURERSQ0dYNkJRUjNCWVQxR1hMSk1aUFNTUS4u">form</a>.
+      <br><br>
+      If you want to find our more about our teams, please visit the <a href="/teams">teams</a> page!
+    </p>
+
   </div>
 </main>
 
@@ -97,23 +141,43 @@
     background-color: var(--pal-black);
   }
 
-  .con-about-text {
-    width: 50%;
-  }
-
   .img-photo {
     width: 50%;
 
     border-radius: 8px;
   }
 
-  .lbl-about-header {
+  .con-about-text {
+    width: 50%;
+  }
+  .con-about-text h2 {
     font-size: 48px;
     text-align: right;
     margin: 0;
   }
-  
-  .lbl-about-body {
+  .con-about-text p {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .con-faq {
+    padding: 64px;
+    padding-left: 256px;
+    padding-right: 256px;
+
+    text-align: left;
+
+    background-color: var(--pal-gray);
+  }
+  .con-faq h2 {
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+  }
+  .con-faq h3 {
+    font-size: 32px;
+  }
+  .con-faq p {
     font-size: 18px;
     text-align: justify;
   }
