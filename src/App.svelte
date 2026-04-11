@@ -14,7 +14,7 @@
 
   function redirect(link) {
     window.location.href = link
-}
+  }
 </script>
 
 <div class="pan-navbar">
