@@ -64,12 +64,13 @@
     <h3>What are the different kinds of teams?</h3>
     <p>
       We have recently incorporated new team structures so that we can better accommodate varying member skill levels and efficiently increase our output for ambitious projects. These teams are split into Beginner, Intermediate, and Advanced tiers.
-      <br><br>
-      • A <strong>Beginner Team</strong> is fully open to all, focusing on teaching fundamental hardware and software skills through projects like the Developed Projects Team and Software Team.
-      <br><br>
-      • An <strong>Intermediate Team</strong> is open to all members with some prior experience in areas like CAD or electronics recommended.
-      <br><br>
-      • An <strong>Advanced Team</strong> requires strong proficiency and active commitment for complex projects. 
+    </p>
+    <ul>
+      <li>A <strong>Beginner Team</strong> is fully open to all, focusing on teaching fundamental hardware and software skills through projects like the Developed Projects Team and Software Team.</li>
+      <li>An <strong>Intermediate Team</strong> is open to all members with some prior experience in areas like CAD or electronics recommended.</li>
+      <li>An <strong>Advanced Team</strong> requires strong proficiency and active commitment for complex projects.</li>
+    </ul>
+    <p>
       Entry to these teams is selection-based through an application process, you can sign up via the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYcqCT0bs7MREouu3SPUuamBURERSQ0dYNkJRUjNCWVQxR1hMSk1aUFNTUS4u">form</a>.
       <br><br>
       If you want to find our more about our teams, please visit the <a href="/teams">teams</a> page!
