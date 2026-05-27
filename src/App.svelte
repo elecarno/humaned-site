@@ -24,7 +24,7 @@
     <button class="btn-nav" on:click={() => {redirect("https://www.eusa.ed.ac.uk/shop?activity_id=441")}}>JOIN</button>
     <button class="btn-nav" on:click={() => {redirect("/committee")}}>COMMITTEE</button>
     <button class="btn-nav" on:click={() => {redirect("/teams")}}>TEAMS</button>
-    <button class="btn-nav" on:click={() => {redirect("https://www.eusa.ed.ac.uk/shop?activity_id=441")}}>MERCH</button>
+    <!-- <button class="btn-nav" on:click={() => {redirect("https://www.eusa.ed.ac.uk/shop?activity_id=441")}}>MERCH</button> -->
     <!-- <button class="btn-nav" on:click={() => {redirect("/")}}>ABOUT</button> -->
   </div>
 </div>
